@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Runing project option products
+Para poder ejecutar la funcionalidad de productos de forma correcta se debe tener corriendo el products api en el puerto 8080 en local o tambien se puede cambiar la url de esta api en el archivo: `products.service.ts`
