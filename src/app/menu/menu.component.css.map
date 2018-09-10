@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,GAAG,CAAC;EACA,gBAAgB,EAAE,SAAS;CAAG",
+    "sources": [
+        "menu.component.sass"
+    ],
+    "names": [],
+    "file": "menu.component.css"
+}

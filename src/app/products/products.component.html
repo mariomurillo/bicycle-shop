@@ -1,0 +1,26 @@
+<div class="col-md-6">
+  <h2>Productos</h2>
+  <div class="row">
+      Buscar producto:
+      <div class="input-field inline">
+        <input id="icon_prefix" type="text" class="validate">
+        <button class="material-icons prefix">search</button>
+        <label for="icon_prefix">Nombre</label>
+      </div>
+    </div>
+  <table class="striped">
+        <thead>
+          <tr>
+              <th>Id</th>
+              <th>Nombre</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr *ngFor="let product of products">
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+          </tr>
+        </tbody>
+      </table>
+</div>

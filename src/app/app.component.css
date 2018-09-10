@@ -1,0 +1,49 @@
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.grid-container div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.header {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+.menu {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 6;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 3;
+}
+
+.main {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+}
+
+.right {
+  -ms-grid-column: 5;
+      grid-column-start: 5;
+  grid-column-end: 6;
+}
+
+.footer {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 6;
+}
+/*# sourceMappingURL=app.component.css.map */
